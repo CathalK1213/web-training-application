@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
   //background: linear-gradient(90deg, rgb(8, 61, 60) 0%, rgb(8, 12, 12) 100%, transparent);
 
 
-  background: ${({lightBg}) => (lightBg ? "rgb(21, 235, 210)" : "black")};
+  background: ${({lightBg}) => (lightBg ? "skyblue" : "black")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;

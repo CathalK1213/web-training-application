@@ -29,7 +29,7 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: darkblue;
+  background: skyblue;
 `;
 
 

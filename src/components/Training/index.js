@@ -26,13 +26,13 @@ const Training = () => {
                 </TrainingCard>
 
                 <TrainingCard>
-                    <TrainingIcon src={Icon2}/>
+                    <TrainingIcon src={Icon3}/>
                     <TrainingH2>Virtual Training</TrainingH2>
                     <TrainingP>You can access your account to complete training anywhere in the world.</TrainingP>
                 </TrainingCard>
 
                 <TrainingCard>
-                    <TrainingIcon src={Icon3}/>
+                    <TrainingIcon src={Icon2}/>
                     <TrainingH2>Progress Tracking </TrainingH2>
                     <TrainingP>We enable you to track your process while you complete training tasks. </TrainingP>
                 </TrainingCard>

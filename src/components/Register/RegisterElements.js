@@ -14,16 +14,6 @@ export const Container = styled.div`
 
 `;
 
-export const Button = styled.button`
-  background: greenyellow;
-
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  border: 15px;
-  padding: 5px;
-  border-radius: 8px;
-`;
 
 export const FormWrap = styled.div`
   height: 100%;
@@ -42,7 +32,7 @@ export const Icon = styled(Link)`
   margin-left: 32px;
   margin-top: 32px;
   text-decoration: none;
-  color: white;
+  color: blue;
   font-weight: 700;
   font-size: 32px;
 

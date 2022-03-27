@@ -16,6 +16,7 @@ import {
     BtnWrap,
     Img,
 } from "./infoElements";
+import {NavBtnLink} from "../Navbar/NavElements";
 
 
 const InfoSection = ({

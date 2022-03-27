@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webtrainingapplicati-dev-162247-authRole",
+      "UnauthRoleArn": "arn:aws:iam::101036776536:role/amplify-webtrainingapplicati-dev-162247-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::101036776536:role/amplify-webtrainingapplicati-dev-162247-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-webtrainingapplicati-dev-162247-deployment",
+      "UnauthRoleName": "amplify-webtrainingapplicati-dev-162247-unauthRole",
+      "StackName": "amplify-webtrainingapplicati-dev-162247",
+      "StackId": "arn:aws:cloudformation:eu-west-2:101036776536:stack/amplify-webtrainingapplicati-dev-162247/e0df5080-ab8e-11ec-a590-0a775602c314",
+      "AmplifyAppId": "d368ayovvqny5z"
+    },
+    "categories": {
+      "auth": {
+        "webtrainingapplicati5ba5f282": {}
+      }
+    }
+  }
+}

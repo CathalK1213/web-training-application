@@ -6,7 +6,7 @@ import {Link as LinkS} from "react-scroll";
 export const Nav = styled.nav`
   // background: linear-gradient(90deg, rgb(8, 61, 60) 0%, rgb(8, 12, 12) 100%), transparent;
 
-  background: ${({scrollNav}) => (scrollNav ? 'rgb(21, 235, 210)' : 'transparent')};
+  background: ${({scrollNav}) => (scrollNav ? 'skyblue' : 'transparent')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -36,7 +36,7 @@ export const NavbarContainer = styled.div`
 
 //LinkR means it's a react-router link
 export const NavLogo = styled(LinkR)`
-  color: white;
+  color: greenyellow;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -112,11 +112,10 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
-  background: skyblue;
+  background: #7caab5;
   white-space: nowrap;
-  padding: 10px 22px;
-  color: black;
+  padding: 5px 15px;
+  color: white;
   font-size: 16px;
   outline: none;
   border: none;
