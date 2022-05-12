@@ -19,7 +19,7 @@ const Register = () => {
         <>
             <Container>
                 <FormWrap>
-                    <Icon to="/">Home</Icon>
+                    <Icon to="/"></Icon>
                     <FormContent>
                         <Form action="#">
                             <FormH1>Register for a new account today!</FormH1>

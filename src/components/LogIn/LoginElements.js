@@ -42,7 +42,7 @@ export const Icon = styled(Link)`
   margin-left: 32px;
   margin-top: 32px;
   text-decoration: none;
-  color: white;
+  color: blue;
   font-weight: 700;
   font-size: 32px;
 

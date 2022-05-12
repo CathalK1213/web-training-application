@@ -1,0 +1,135 @@
+.QuizApp {
+    font-family: "Roboto Thin";
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.Menu {
+    color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    /*background: linear-gradient(180deg, #0b2d75 0%, rgb(8, 147, 142) 100%);*/
+    /*background: linear-gradient(180deg, #19e1ee 0%, rgb(0, 0, 0) 100%);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Menu button {
+    background-color: skyblue;
+    width: 300px;
+    height: 50px;
+    margin: 7px;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.Quiz {
+
+    margin: 25px;
+    color: white;
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #0b2d75 0%, rgb(8, 147, 142) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Quiz button {
+    background-color: skyblue;
+    width: 300px;
+    height: 50px;
+    margin: 0 -2.5rem;
+    padding: 0 -2.5rem;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+
+}
+
+Quiz, Button:focus {
+
+    color: greenyellow;
+    box-shadow: inset 300px 0 0 0 palevioletred;
+
+
+}
+
+
+.options {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.EndQuiz {
+    margin: 10px auto;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    height: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EndQuiz button {
+    background-color: #54b3d6;
+    width: 300px;
+    height: 50px;
+    margin: 7px;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.boxTitle {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.box {
+    width: 400px;
+    font-size: 20px;
+    padding: 50px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+

@@ -17,10 +17,12 @@ import {
 const Login = () => {
     return (
         <>
+
+
             <Container>
                 <FormWrap>
-                    <Icon to="/">Home</Icon>
-                    <FormContent>
+
+                <FormContent>
                         <Form action="#">
                             <FormH1>Sign in to your account</FormH1>
                             <FormLabel htmlFor>Email</FormLabel>

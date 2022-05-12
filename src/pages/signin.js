@@ -1,26 +1,33 @@
 import React from 'react';
 import Amplify from 'aws-amplify';
-//2.
 import awsExports from '../aws-exports';
-//3.
 import {AmplifySignOut, withAuthenticator} from '@aws-amplify/ui-react-v1'
 import {Icon} from "../components/Register/RegisterElements";
+
+
 //4.
 Amplify.configure(awsExports)
 
+
 function SignIn() {
+
     return (
         <>
+
             <div>
-                <Icon to="/">Home</Icon>
+                <h2>Click the Logo to return home</h2>
+                <Icon to="/"><img src={require('../images/logo.png')} alt="logo" height={200} width={500}/></Icon>
+
+
+                <Icon to="/developer"><img src={require('../images/training.PNG')} alt="training" height={200}
+                                           width={500}/></Icon>
+
 
                 <AmplifySignOut/>
 
-                <h1>This is your logged in dashboard.</h1>
+
             </div>
         </>
     )
-}
-
-//6.
+};
 export default withAuthenticator(SignIn)

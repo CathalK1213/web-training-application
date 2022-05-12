@@ -4,7 +4,6 @@ import {Link as LinkS} from "react-scroll";
 
 //must use export as it is a different file
 export const Nav = styled.nav`
-  // background: linear-gradient(90deg, rgb(8, 61, 60) 0%, rgb(8, 12, 12) 100%), transparent;
 
   background: ${({scrollNav}) => (scrollNav ? 'skyblue' : 'transparent')};
   height: 80px;

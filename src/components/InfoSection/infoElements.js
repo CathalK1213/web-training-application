@@ -3,9 +3,6 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: white;
-  //background: linear-gradient(90deg, rgb(8, 61, 60) 0%, rgb(8, 12, 12) 100%, transparent);
-
-
   background: ${({lightBg}) => (lightBg ? "skyblue" : "black")};
 
   @media screen and (max-width: 768px) {
@@ -62,7 +59,7 @@ export const TextWrapper = styled.div`
 
 
 export const TopLine = styled.p`
-  color: skyblue;
+  color: gold;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;

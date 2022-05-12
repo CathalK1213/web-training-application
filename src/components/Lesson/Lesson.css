@@ -1,0 +1,51 @@
+.main {
+    background: linear-gradient(90deg, #000000 0%, rgb(15, 180, 189) 100%);
+    text-align: center;
+    color: white;
+
+
+}
+
+.header {
+    font-size: 24px;
+    background-color: lightseagreen;
+
+}
+
+
+/*.h3{*/
+/*    text-align: center;*/
+/*}*/
+.marker {
+    padding: 15px 220px;
+    margin: 18px;
+    border-radius: 25px;
+    display: flex;
+
+
+}
+
+.marker--not-complete {
+    background-color: red;
+    color: white;
+
+}
+
+.marker--is-complete {
+    background-color: greenyellow;
+    color: white;
+
+}
+
+.marker1--not-complete {
+    background-color: blue;
+    color: white;
+
+}
+
+.marker1--is-complete {
+    background-color: yellow;
+    color: white;
+
+
+}
